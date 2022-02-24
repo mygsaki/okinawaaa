@@ -6,12 +6,43 @@ body{
 
 
 
-header{
+#header{
     margin-top: 0%;
-    background-image: url(./img/header_img2.jpeg);
+    background-image: url(./img/header_img.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
 }
+
+.container .img{
+    width: 100vw;
+    /* height: 100vh; */
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    animation: image_anime 15s ease-in-out infinite; /* 5秒のアニメーションを繰り返す */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  @keyframes image_anime {
+    0% {
+      background-image: url(./img/h1.jpeg); /* 背景画像1を指定 */
+    }
+    25% {
+      background-image: url(./img/h2.jpeg); /* 背景画像2を指定 */
+    }
+    50% {
+      background-image: url(./img/h3.jpeg); /* 背景画像1を指定 */
+    }
+    75% {
+      background-image: url(./img/h4.jpeg); /* 背景画像1を指定 */
+    }
+    100% {
+      background-image: url(./img/h5.jpeg); /* 背景画像1を指定 */
+    }
+  }
