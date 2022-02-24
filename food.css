@@ -10,6 +10,7 @@ html{
 }
 .header-right{
     display: flex;
+    align-items: center;
     margin-right: 100px;
    
 }
@@ -18,7 +19,8 @@ header div ul li{
 }
 .pinovinopic{
     margin-left: 200px;
-    margin-top: 50px
+    margin-top: 50px;
+    filter: drop-shadow(0 0 10px black);
 }
 
 .pic{
@@ -28,7 +30,7 @@ header div ul li{
     transition: opacity 2s ease;
     margin-left: 100px;
     margin-right: 50px;
-
+        filter: drop-shadow(0 0 10px black);
 }
 .on.pic{
     opacity: 1;
@@ -65,10 +67,6 @@ body div ul{
     background-color: #eaeaed;
 
 }
-.pic2{
-    width: 1000px;
-    height: 400px;
-}
 #h1{
     font-size: 30px;
     background-color: #eaeaed;
@@ -90,8 +88,21 @@ body div ul{
     margin-top: 30px;
     opacity: 0;
     transition: opacity 2s ease;
-padding: 50px 0 50px 0;
+padding: 50px 0 50px 200px;
 }
-.on.menu1{
+.on.menu2{
     opacity: 1;
 }   
+
+a {
+    padding: 0 .3em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(25, 218, 211) 50%);
+    background-position: 0 0;
+    background-size: auto 200%;
+    transition: .3s;
+  }
+  a:hover {
+    background-position: 0 100%;
+    color: #fff;
+  }
+  }
