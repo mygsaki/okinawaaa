@@ -58,6 +58,9 @@ body div p{
 body div ul{
     padding: 50px;
 }
+footer{
+    text-align: center;
+}
 .footer{
     display: flex;
     align-items: center;
@@ -111,8 +114,8 @@ a {
     position   : relative;
     overflow   : hidden;
                       /* 画像のサイズに合わせて変更ください */
-    width      : 600px;
-    height     : 350px;
+    width      : 500px;
+    height     : 400px;
     margin     : auto;      /* サンプルは中央寄せの背景：白 */
     background : #eaeaed;
   }
@@ -122,8 +125,8 @@ a {
     display    : block;
     position   : absolute;
                         /* 画像のサイズを表示エリアに合せる */
-    width      : 600px;
-    height     : 350px;
+    width      : 500px;
+    height     : 400px;
     opacity    : 0;
     animation  : slideAnime 30s ease infinite;
   }

@@ -79,7 +79,9 @@ a {
     background-position: 0 100%;
     color: #fff;
   }
-
+  footer{
+    text-align: center;
+}
 /* スクロール */
  /*=== 画像の表示エリア ================================= */
 .scrollbar {
