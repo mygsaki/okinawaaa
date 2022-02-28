@@ -125,9 +125,17 @@ main{
   .header-main p{
     font-size: 40px;
   }
+  .container{
+    height: 50vh;
+    width: 100vw;
+  }
   #header{
     background-image: url('./img/h1_01.jpeg');
     animation: image_animeSp 15s ease-in-out infinite; /* 5秒のアニメーションを繰り返す */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
   }
   @keyframes image_animeSp {
     0% {
